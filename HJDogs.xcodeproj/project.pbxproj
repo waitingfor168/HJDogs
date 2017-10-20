@@ -14,6 +14,7 @@
 		D28A2CEF1ED8012D00D9258B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D28A2CED1ED8012D00D9258B /* LaunchScreen.storyboard */; };
 		D28A2CFA1ED8012D00D9258B /* HJDogsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D28A2CF91ED8012D00D9258B /* HJDogsTests.swift */; };
 		D28A2D051ED8012D00D9258B /* HJDogsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D28A2D041ED8012D00D9258B /* HJDogsUITests.swift */; };
+		D2D9C4071F95F26F00F35D8D /* Const.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D9C4061F95F26F00F35D8D /* Const.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		D28A2D001ED8012D00D9258B /* HJDogsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HJDogsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D28A2D041ED8012D00D9258B /* HJDogsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HJDogsUITests.swift; sourceTree = "<group>"; };
 		D28A2D061ED8012D00D9258B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2D9C4061F95F26F00F35D8D /* Const.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Const.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				D28A2CEB1ED8012D00D9258B /* Assets.xcassets */,
 				D28A2CED1ED8012D00D9258B /* LaunchScreen.storyboard */,
 				D28A2CF01ED8012D00D9258B /* Info.plist */,
+				D2D9C4061F95F26F00F35D8D /* Const.swift */,
 			);
 			path = HJDogs;
 			sourceTree = "<group>";
@@ -264,6 +267,7 @@
 			files = (
 				D28A2CE71ED8012D00D9258B /* ViewController.swift in Sources */,
 				D28A2CE51ED8012D00D9258B /* AppDelegate.swift in Sources */,
+				D2D9C4071F95F26F00F35D8D /* Const.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -421,6 +425,7 @@
 				INFOPLIST_FILE = HJDogs/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_SWIFT_FLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = com.whj.HJDogs;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
@@ -435,6 +440,7 @@
 				INFOPLIST_FILE = HJDogs/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_SWIFT_FLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = com.whj.HJDogs;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
